@@ -7,8 +7,7 @@
   "content_scripts": [
         {
           "matches": [
-                "http://www.youtube.com/*",
-                "https://www.youtube.com/*"
+                "*://www.youtube.com/*"
             ],
             "js": [
                 "Youtube.js"
