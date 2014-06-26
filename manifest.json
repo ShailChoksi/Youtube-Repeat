@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "Just Repeat",
+  "description": "Automatically repeats youtube videos.",
+  "version": "0.0.1",
+  "content_scripts": [
+        {
+          "matches": [
+                "http://www.youtube.com/*",
+                "https://www.youtube.com/*"
+            ],
+            "js": [
+                "Youtube.js"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+      "Script.js"
+    ],
+  "permissions": [
+        "tabs"
+  ]
+}
