@@ -1,7 +1,7 @@
 Youtube-Repeat
 ==============
 
-Youtube Repeat
+Youtube Repeat - Endless replaying of youtube videos!
 
 This extension is still unpackaged. Follow the instructions below to install it as an extension:
 
